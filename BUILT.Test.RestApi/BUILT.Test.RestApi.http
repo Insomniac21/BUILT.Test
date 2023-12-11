@@ -1,0 +1,6 @@
+@BUILT.Test.RestApi_HostAddress = http://localhost:5179
+
+GET {{BUILT.Test.RestApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
